@@ -1,0 +1,260 @@
+# user-1
+- id: 1
+  last_name : "Sampei"
+  first_name: "Hiroki"
+  age: 23
+  gender: "male"
+  birth:
+    year: 1990
+    month: 7
+    day: 4
+  mail: hsampei@mail.com
+  tel: 080-0000-0000
+  hobby:
+    - "Programming"
+    - "HandBall"
+    - "Reading a Book"
+  sns:
+    twitter: 
+      id: hsampei
+      url: http://twitter.com/hsampei
+    facebook:
+      id: hsampei
+      url: http://facebook.com/hsampei
+    tumblr: 
+  status: 1
+  created_at: 2013-01-01 00:00:00
+  updated_at: 2013-01-04 00:00:00
+
+# user-2
+- id: 2
+  last_name : "Yamada"
+  first_name: "Takashi"
+  age: 53
+  gender: "male"
+  birth:
+    year: 1970 
+    month: 4
+    day: 10
+  mail: tyamada@mail.com
+  tel: 090-0100-0100
+  hobby:
+    - "Soccer"
+    - "Anime"
+  sns:
+    twitter: 
+      id: tyamada
+      url: http://twitter.com/tyamada
+    facebook:
+    tumblr:
+      id: tyamada
+      url: http://facebook.com/tyamada
+  status: 1
+  created_at: 2013-01-01 00:00:00
+  updated_at: 2013-01-04 00:00:00
+ 
+# user-3
+- id: 3
+  last_name : "Furukawa"
+  first_name: "Nagisa"
+  age: 19
+  gender: "female"
+  birth:
+    year: 1996
+    month: 10
+    day: 30
+  mail: fnagisa@mail.com
+  tel: 090-1000-1000
+  hobby:
+    - "Dango"
+    - "drama"
+  sns:
+    twitter: 
+      id: fnagisa
+      url: http://twitter.com/fnagisa
+    facebook:
+    tumblr:
+  status: 1
+  created_at: 2013-01-01 00:00:00
+  updated_at: 2013-01-04 00:00:00
+ 
+# user-4
+- id: 4
+  last_name : "Suzuki"
+  first_name: "Tarou"
+  age: 89
+  gender: "male"
+  birth:
+    year: 1910
+    month: 4
+    day: 14
+  mail: tsuzuki@mail.com
+  tel: 090-0111-0111
+  hobby:
+    - "Golf"
+  sns:
+    twitter: 
+      id: tsuzuki
+      url: http://twitter.com/tsuzuki
+    facebook:
+      id: tsuzuki 
+      url: http://facebook.com/tsuzuki
+    tumblr:
+      id: tsuzuki
+      url: http://tumblr.com/tsuzuki
+  status: 1
+  created_at: 2013-01-01 00:00:00
+  updated_at: 2013-01-04 00:00:00
+ 
+# user-5
+- id: 5
+  last_name : "Mori"
+  first_name: "Jirou"
+  age: 10
+  gender: "male"
+  birth:
+    year: 2009
+    month: 5
+    day: 5
+  mail: jmori@mail.com
+  tel: 080-0000-0000
+  hobby:
+    - "Video Game"
+  sns:
+    twitter: 
+    facebook:
+    tumblr:
+  status: 1
+  created_at: 2013-01-01 00:00:00
+  updated_at: 2013-01-04 00:00:00
+ 
+# user-6
+- id: 6
+  last_name : "Murata"
+  first_name: "Takshi"
+  age: 40 
+  gender: "male"
+  birth:
+    year: 1960
+    month: 9
+    day: 24
+  mail: tmurata@mail.com
+  tel: 080-1001-9070
+  hobby:
+    - "Baseball"
+    - "TV"
+  sns:
+    twitter: 
+      id: tmurata
+      url: http://twitter.com/tmurata
+    facebook:
+      id: tmurata
+      url: http://facebook.com/tmurata
+    tumblr:
+      id: tmurata
+      url: http://tumblr.com/tmurata
+  status: 1
+  created_at: 2013-01-01 00:00:00
+  updated_at: 2013-01-04 00:00:00
+ 
+# user-7
+- id: 7
+  last_name : "Gouda"
+  first_name: "Takeshi"
+  age: 10
+  gender: "male"
+  birth:
+    year: 2000
+    month: 4
+    day: 1
+  mail: tgouda@mail.com
+  tel: 080-0090-0900
+  hobby:
+    - "Song"
+    - "Baseball"
+  sns:
+    twitter: 
+      id: tgouda
+      url: http://twitter.com/tgouda
+    facebook:
+    tumblr:
+  status: 1
+  created_at: 2013-01-01 00:00:00
+  updated_at: 2013-01-04 00:00:00
+ 
+# user-8
+- id: 8
+  last_name : "Honekawa"
+  first_name: "Suneo"
+  age: 10
+  gender: "male"
+  birth:
+    year: 2001
+    month: 9
+    day: 9
+  mail: shonekawa@mail.com
+  tel: 080-0000-0000
+  hobby:
+    - "Pramodel"
+    - "ski"
+  sns:
+    twitter: 
+      id: shonekawa
+      url: http://twitter.com/shonekawa
+    facebook:
+      id: shonekawa
+      url: http://facebook.com/shonekawa
+    tumblr:
+  status: 1
+  created_at: 2013-01-01 00:00:00
+  updated_at: 2013-01-04 00:00:00
+ 
+# user-9
+- id: 9
+  last_name : "Minamoto"
+  first_name: "Shizuka"
+  age: 11
+  gender: "female"
+  birth:
+    year: 2010
+    month: 7
+    day: 4
+  mail: sminamoto@mail.com
+  tel: 080-0000-0000
+  hobby:
+    - "Take a bath"
+    - "Study"
+  sns:
+    twitter: 
+    facebook:
+      id: sminamoto
+      url: http://facebook.com/sminamoto
+    tumblr:
+  status: 1
+  created_at: 2013-01-01 00:00:00
+  updated_at: 2013-01-04 00:00:00
+ 
+# user-10
+- id: 10
+  last_name : "Akagi"
+  first_name: "Haruko"
+  age: 33
+  gender: "female"
+  birth:
+    year: 1980
+    month: 7
+    day: 20
+  mail: hakagi@mail.com
+  tel: 080-0000-0000
+  hobby:
+    - "Basketball"
+    - "Watch a movie"
+  sns:
+    twitter: 
+    facebook:
+    tumblr:
+      id: hakagi
+      url: http://tumblr.com/hakagi
+  status: 1
+  created_at: 2013-01-01 00:00:00
+  updated_at: 2013-01-04 00:00:00
