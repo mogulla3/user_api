@@ -1,8 +1,7 @@
 # User API
----
 
 ## 概要
----
+
 ※ WebAPIの設計、実装のサンプル(練習)プロジェクト  
 ユーザ情報を操作するAPI
 
@@ -22,10 +21,10 @@ GET, POST, PUT, DELETE
 複数のデータを返すAPIの場合、デフォルトで10件返却する。  
 以下2つのパラメータで取得範囲を指定することが可能
 
-name | default | max | description
-:- | :- | :- | :-
-per_page | 20 | 100 | 取得件数
-page | 1 | - | 何ページ目を取得するか
+| name | default | max | description |
+| :-- | :-- | :-- | :-- |
+| per_page | 20 | 100 | 取得件数 |
+| page | 1 | - | 何ページ目を取得するか |
 
 
 #### リクエストデータの仕様
@@ -41,10 +40,10 @@ page | 1 | - | 何ページ目を取得するか
 - /users.json, /users.xmlのようにドット以下にファイルフォーマットを指定する
 
 ## エラーレスポンス
----
+
 #### Error Code List
 original error code | http status code | Description
-:- | :- | :-
+:-- | :-- | :--
 u-100 | 400 Bad Request | -
 u-101 | 401 Unauthorized | -
 u-102 | 403 Forbidden | -
@@ -62,7 +61,6 @@ u-202 | 503 Service Unavailable | -
 ```
 
 ## Get user list
----
 ```
 GET /users
 ```
@@ -82,7 +80,7 @@ GET _http://api.sample.jp/v1/users_
 hoge
 
 ## Get a single user
----
+
 ```
 GET /users/:id
 ```
@@ -99,13 +97,13 @@ GET _http://api.sample.jp/v1/uesrs/1?fields=first_name,age_
 ```
 
 ## Create a user
----
+
 ```
 POST /users
 ```
 ##### Input (Query-Parameter or Request-Body) 
 Name | Type | Required  | Description
-:- | :- | :-: | :-
+:-- | :-- | :--: | :--
 first_name|string|◯| A first name of the user.|
 last_name|string|◯|A last name of the user.|
 age|integer|◯|A age of the user.|
@@ -173,13 +171,13 @@ status|integer|◯|Status of the user in this app.|
 
 
 ## Edit a user
----
+
 ```
 PUT /users/:id
 ```
 ##### Input (Query-Parameter or Request-Body) 
 Name | Type | Required  | Description
-:- | :- | :-: | :-
+:-- | :-- | :--: | :--
 first_name|string|| A first name of the user.|
 last_name|string||A last name of the user.|
 age|integer||A age of the user.|
@@ -229,7 +227,7 @@ PUT _http://api.sample.jp/users/1_
 ```
 
 ## Delete a user
----
+
 ```
 DELETE /users/:id
 ```
