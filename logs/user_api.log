@@ -1,0 +1,92 @@
+# Logfile created on 2014-03-01 17:14:40 +0900 by logger.rb/36483
+D, [2014-03-01T17:15:02.700285 #35351] DEBUG -- : debug test
+I, [2014-03-01T17:15:02.700362 #35351]  INFO -- : info test
+W, [2014-03-01T17:15:02.700396 #35351]  WARN -- : warn test
+E, [2014-03-01T17:15:02.700425 #35351] ERROR -- : error test
+F, [2014-03-01T17:15:02.700453 #35351] FATAL -- : fatal test
+D, [2014-03-01T17:15:14.774143 #35351] DEBUG -- : debug test
+I, [2014-03-01T17:15:14.774279 #35351]  INFO -- : info test
+W, [2014-03-01T17:15:14.774347 #35351]  WARN -- : warn test
+E, [2014-03-01T17:15:14.774405 #35351] ERROR -- : error test
+F, [2014-03-01T17:15:14.774474 #35351] FATAL -- : fatal test
+D, [2014-03-01T18:47:29.047839 #35351] DEBUG -- : debug test
+I, [2014-03-01T18:47:29.047947 #35351]  INFO -- : info test
+W, [2014-03-01T18:47:29.048015 #35351]  WARN -- : warn test
+E, [2014-03-01T18:47:29.048079 #35351] ERROR -- : error test
+F, [2014-03-01T18:47:29.048140 #35351] FATAL -- : fatal test
+D, [2014-03-01T18:58:58.662706 #36871] DEBUG -- : [{"id"=>1, "last_name"=>"Sampei", "first_name"=>"Hiroki", "age"=>23, "gender"=>"male", "birth"=>{"year"=>1990, "month"=>7, "day"=>4}, "mail"=>"hsampei@mail.com", "tel"=>"080-0000-0000", "hobby"=>["Programming", "HandBall", "Reading a Book"], "sns"=>{"twitter"=>{"id"=>"hsampei", "url"=>"http://twitter.com/hsampei"}, "facebook"=>{"id"=>"hsampei", "url"=>"http://facebook.com/hsampei"}, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}, {"id"=>2, "last_name"=>"Yamada", "first_name"=>"Takashi", "age"=>53, "gender"=>"male", "birth"=>{"year"=>1970, "month"=>4, "day"=>10}, "mail"=>"tyamada@mail.com", "tel"=>"090-0100-0100", "hobby"=>["Soccer", "Anime"], "sns"=>{"twitter"=>{"id"=>"tyamada", "url"=>"http://twitter.com/tyamada"}, "facebook"=>nil, "tumblr"=>{"id"=>"tyamada", "url"=>"http://facebook.com/tyamada"}}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}, {"id"=>3, "last_name"=>"Furukawa", "first_name"=>"Nagisa", "age"=>19, "gender"=>"female", "birth"=>{"year"=>1996, "month"=>10, "day"=>30}, "mail"=>"fnagisa@mail.com", "tel"=>"090-1000-1000", "hobby"=>["Dango", "drama"], "sns"=>{"twitter"=>{"id"=>"fnagisa", "url"=>"http://twitter.com/fnagisa"}, "facebook"=>nil, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}, {"id"=>4, "last_name"=>"Suzuki", "first_name"=>"Tarou", "age"=>89, "gender"=>"male", "birth"=>{"year"=>1910, "month"=>4, "day"=>14}, "mail"=>"tsuzuki@mail.com", "tel"=>"090-0111-0111", "hobby"=>["Golf"], "sns"=>{"twitter"=>{"id"=>"tsuzuki", "url"=>"http://twitter.com/tsuzuki"}, "facebook"=>{"id"=>"tsuzuki", "url"=>"http://facebook.com/tsuzuki"}, "tumblr"=>{"id"=>"tsuzuki", "url"=>"http://tumblr.com/tsuzuki"}}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}, {"id"=>5, "last_name"=>"Mori", "first_name"=>"Jirou", "age"=>10, "gender"=>"male", "birth"=>{"year"=>2009, "month"=>5, "day"=>5}, "mail"=>"jmori@mail.com", "tel"=>"080-0000-0000", "hobby"=>["Video Game"], "sns"=>{"twitter"=>nil, "facebook"=>nil, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}, {"id"=>6, "last_name"=>"Murata", "first_name"=>"Takshi", "age"=>40, "gender"=>"male", "birth"=>{"year"=>1960, "month"=>9, "day"=>24}, "mail"=>"tmurata@mail.com", "tel"=>"080-1001-9070", "hobby"=>["Baseball", "TV"], "sns"=>{"twitter"=>{"id"=>"tmurata", "url"=>"http://twitter.com/tmurata"}, "facebook"=>{"id"=>"tmurata", "url"=>"http://facebook.com/tmurata"}, "tumblr"=>{"id"=>"tmurata", "url"=>"http://tumblr.com/tmurata"}}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}, {"id"=>7, "last_name"=>"Gouda", "first_name"=>"Takeshi", "age"=>10, "gender"=>"male", "birth"=>{"year"=>2000, "month"=>4, "day"=>1}, "mail"=>"tgouda@mail.com", "tel"=>"080-0090-0900", "hobby"=>["Song", "Baseball"], "sns"=>{"twitter"=>{"id"=>"tgouda", "url"=>"http://twitter.com/tgouda"}, "facebook"=>nil, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}, {"id"=>8, "last_name"=>"Honekawa", "first_name"=>"Suneo", "age"=>10, "gender"=>"male", "birth"=>{"year"=>2001, "month"=>9, "day"=>9}, "mail"=>"shonekawa@mail.com", "tel"=>"080-0000-0000", "hobby"=>["Pramodel", "ski"], "sns"=>{"twitter"=>{"id"=>"shonekawa", "url"=>"http://twitter.com/shonekawa"}, "facebook"=>{"id"=>"shonekawa", "url"=>"http://facebook.com/shonekawa"}, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}, {"id"=>9, "last_name"=>"Minamoto", "first_name"=>"Shizuka", "age"=>11, "gender"=>"female", "birth"=>{"year"=>2010, "month"=>7, "day"=>4}, "mail"=>"sminamoto@mail.com", "tel"=>"080-0000-0000", "hobby"=>["Take a bath", "Study"], "sns"=>{"twitter"=>nil, "facebook"=>{"id"=>"sminamoto", "url"=>"http://facebook.com/sminamoto"}, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}, {"id"=>10, "last_name"=>"Akagi", "first_name"=>"Haruko", "age"=>33, "gender"=>"female", "birth"=>{"year"=>1980, "month"=>7, "day"=>20}, "mail"=>"hakagi@mail.com", "tel"=>"080-0000-0000", "hobby"=>["Basketball", "Watch a movie"], "sns"=>{"twitter"=>nil, "facebook"=>nil, "tumblr"=>{"id"=>"hakagi", "url"=>"http://tumblr.com/hakagi"}}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}]
+D, [2014-03-01T18:59:36.585202 #36903] DEBUG -- : hoge
+D, [2014-03-01T18:59:44.475984 #36903] DEBUG -- : hogefuga
+D, [2014-03-01T19:10:19.111111 #36903] DEBUG -- : hoge
+D, [2014-03-01T19:11:29.346586 #36903] DEBUG -- : hoge
+D, [2014-03-01T19:11:47.317868 #36903] DEBUG -- : hoge
+D, [2014-03-01T19:17:43.708393 #36951] DEBUG -- : hoge
+D, [2014-03-01T19:19:45.939956 #36984] DEBUG -- : hoge
+D, [2014-03-01T19:20:15.535165 #37012] DEBUG -- : hoge
+D, [2014-03-01T19:20:25.857058 #37012] DEBUG -- : hoge
+D, [2014-03-01T19:20:29.567473 #37012] DEBUG -- : hoge
+D, [2014-03-01T19:37:17.714901 #37492] DEBUG -- : hoge
+D, [2014-03-01T19:37:20.546621 #37492] DEBUG -- : hoge
+D, [2014-03-01T19:37:27.744387 #37492] DEBUG -- : hoge
+D, [2014-03-01T19:37:34.591060 #37492] DEBUG -- : hoge
+D, [2014-03-01T19:37:44.409474 #37492] DEBUG -- : hoge
+D, [2014-03-01T19:37:51.781450 #37492] DEBUG -- : hoge
+D, [2014-03-01T19:42:26.113310 #37609] DEBUG -- : hoge
+D, [2014-03-01T20:57:09.016576 #39517] DEBUG -- : hoge
+D, [2014-03-01T20:58:09.975616 #39517] DEBUG -- : hoge
+D, [2014-03-01T20:58:09.975720 #39517] DEBUG -- : {"splat"=>[], "captures"=>["1"], "id"=>"1"}
+D, [2014-03-01T20:58:21.078736 #39517] DEBUG -- : hoge
+D, [2014-03-01T20:58:21.078828 #39517] DEBUG -- : 1
+D, [2014-03-01T21:05:56.042589 #39517] DEBUG -- : 1
+D, [2014-03-01T21:06:07.919534 #39517] DEBUG -- : 1
+D, [2014-03-01T21:06:07.919651 #39517] DEBUG -- : nil
+D, [2014-03-01T21:06:49.117445 #39517] DEBUG -- : 1
+D, [2014-03-01T21:06:49.117585 #39517] DEBUG -- : 1
+D, [2014-03-01T21:06:49.117663 #39517] DEBUG -- : 2
+D, [2014-03-01T21:06:49.117727 #39517] DEBUG -- : 3
+D, [2014-03-01T21:06:49.117796 #39517] DEBUG -- : 4
+D, [2014-03-01T21:06:49.117862 #39517] DEBUG -- : 5
+D, [2014-03-01T21:06:49.117925 #39517] DEBUG -- : 6
+D, [2014-03-01T21:06:49.117986 #39517] DEBUG -- : 7
+D, [2014-03-01T21:06:49.118049 #39517] DEBUG -- : 8
+D, [2014-03-01T21:06:49.118111 #39517] DEBUG -- : 9
+D, [2014-03-01T21:06:49.118174 #39517] DEBUG -- : 10
+D, [2014-03-01T21:07:30.680550 #39517] DEBUG -- : 1
+D, [2014-03-01T21:07:30.680703 #39517] DEBUG -- : nil
+D, [2014-03-01T21:08:15.783207 #39517] DEBUG -- : 1
+D, [2014-03-01T21:08:15.783301 #39517] DEBUG -- : true
+D, [2014-03-01T21:08:22.980880 #39517] DEBUG -- : 1
+D, [2014-03-01T21:08:22.980978 #39517] DEBUG -- : nil
+D, [2014-03-01T21:08:50.150770 #39517] DEBUG -- : String
+D, [2014-03-01T21:08:59.158578 #39517] DEBUG -- : String
+D, [2014-03-01T21:08:59.158694 #39517] DEBUG -- : Fixnum
+D, [2014-03-01T21:08:59.158808 #39517] DEBUG -- : Fixnum
+D, [2014-03-01T21:08:59.158875 #39517] DEBUG -- : Fixnum
+D, [2014-03-01T21:08:59.158931 #39517] DEBUG -- : Fixnum
+D, [2014-03-01T21:08:59.159025 #39517] DEBUG -- : Fixnum
+D, [2014-03-01T21:08:59.159090 #39517] DEBUG -- : Fixnum
+D, [2014-03-01T21:08:59.159150 #39517] DEBUG -- : Fixnum
+D, [2014-03-01T21:08:59.159214 #39517] DEBUG -- : Fixnum
+D, [2014-03-01T21:08:59.159284 #39517] DEBUG -- : Fixnum
+D, [2014-03-01T21:08:59.159337 #39517] DEBUG -- : Fixnum
+D, [2014-03-01T21:09:53.648051 #39517] DEBUG -- : nil
+D, [2014-03-01T21:10:01.220417 #39517] DEBUG -- : nil
+D, [2014-03-01T21:12:35.983318 #39517] DEBUG -- : nil
+D, [2014-03-01T21:12:35.983422 #39517] DEBUG -- : {"id"=>1, "last_name"=>"Sampei", "first_name"=>"Hiroki", "age"=>23, "gender"=>"male", "birth"=>{"year"=>1990, "month"=>7, "day"=>4}, "mail"=>"hsampei@mail.com", "tel"=>"080-0000-0000", "hobby"=>["Programming", "HandBall", "Reading a Book"], "sns"=>{"twitter"=>{"id"=>"hsampei", "url"=>"http://twitter.com/hsampei"}, "facebook"=>{"id"=>"hsampei", "url"=>"http://facebook.com/hsampei"}, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:12:57.562996 #39517] DEBUG -- : {"id"=>1, "last_name"=>"Sampei", "first_name"=>"Hiroki", "age"=>23, "gender"=>"male", "birth"=>{"year"=>1990, "month"=>7, "day"=>4}, "mail"=>"hsampei@mail.com", "tel"=>"080-0000-0000", "hobby"=>["Programming", "HandBall", "Reading a Book"], "sns"=>{"twitter"=>{"id"=>"hsampei", "url"=>"http://twitter.com/hsampei"}, "facebook"=>{"id"=>"hsampei", "url"=>"http://facebook.com/hsampei"}, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:12:59.667716 #39517] DEBUG -- : {"id"=>2, "last_name"=>"Yamada", "first_name"=>"Takashi", "age"=>53, "gender"=>"male", "birth"=>{"year"=>1970, "month"=>4, "day"=>10}, "mail"=>"tyamada@mail.com", "tel"=>"090-0100-0100", "hobby"=>["Soccer", "Anime"], "sns"=>{"twitter"=>{"id"=>"tyamada", "url"=>"http://twitter.com/tyamada"}, "facebook"=>nil, "tumblr"=>{"id"=>"tyamada", "url"=>"http://facebook.com/tyamada"}}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:13:02.348723 #39517] DEBUG -- : {"id"=>3, "last_name"=>"Furukawa", "first_name"=>"Nagisa", "age"=>19, "gender"=>"female", "birth"=>{"year"=>1996, "month"=>10, "day"=>30}, "mail"=>"fnagisa@mail.com", "tel"=>"090-1000-1000", "hobby"=>["Dango", "drama"], "sns"=>{"twitter"=>{"id"=>"fnagisa", "url"=>"http://twitter.com/fnagisa"}, "facebook"=>nil, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:15:26.751356 #39517] DEBUG -- : nil
+D, [2014-03-01T21:15:30.027750 #39517] DEBUG -- : nil
+D, [2014-03-01T21:16:09.356784 #39517] DEBUG -- : {"id"=>1, "last_name"=>"Sampei", "first_name"=>"Hiroki", "age"=>23, "gender"=>"male", "birth"=>{"year"=>1990, "month"=>7, "day"=>4}, "mail"=>"hsampei@mail.com", "tel"=>"080-0000-0000", "hobby"=>["Programming", "HandBall", "Reading a Book"], "sns"=>{"twitter"=>{"id"=>"hsampei", "url"=>"http://twitter.com/hsampei"}, "facebook"=>{"id"=>"hsampei", "url"=>"http://facebook.com/hsampei"}, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:16:14.189000 #39517] DEBUG -- : {"id"=>1, "last_name"=>"Sampei", "first_name"=>"Hiroki", "age"=>23, "gender"=>"male", "birth"=>{"year"=>1990, "month"=>7, "day"=>4}, "mail"=>"hsampei@mail.com", "tel"=>"080-0000-0000", "hobby"=>["Programming", "HandBall", "Reading a Book"], "sns"=>{"twitter"=>{"id"=>"hsampei", "url"=>"http://twitter.com/hsampei"}, "facebook"=>{"id"=>"hsampei", "url"=>"http://facebook.com/hsampei"}, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:16:19.562953 #39517] DEBUG -- : {"id"=>1, "last_name"=>"Sampei", "first_name"=>"Hiroki", "age"=>23, "gender"=>"male", "birth"=>{"year"=>1990, "month"=>7, "day"=>4}, "mail"=>"hsampei@mail.com", "tel"=>"080-0000-0000", "hobby"=>["Programming", "HandBall", "Reading a Book"], "sns"=>{"twitter"=>{"id"=>"hsampei", "url"=>"http://twitter.com/hsampei"}, "facebook"=>{"id"=>"hsampei", "url"=>"http://facebook.com/hsampei"}, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:16:24.406976 #39517] DEBUG -- : {"id"=>1, "last_name"=>"Sampei", "first_name"=>"Hiroki", "age"=>23, "gender"=>"male", "birth"=>{"year"=>1990, "month"=>7, "day"=>4}, "mail"=>"hsampei@mail.com", "tel"=>"080-0000-0000", "hobby"=>["Programming", "HandBall", "Reading a Book"], "sns"=>{"twitter"=>{"id"=>"hsampei", "url"=>"http://twitter.com/hsampei"}, "facebook"=>{"id"=>"hsampei", "url"=>"http://facebook.com/hsampei"}, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:16:28.221528 #39517] DEBUG -- : {"id"=>1, "last_name"=>"Sampei", "first_name"=>"Hiroki", "age"=>23, "gender"=>"male", "birth"=>{"year"=>1990, "month"=>7, "day"=>4}, "mail"=>"hsampei@mail.com", "tel"=>"080-0000-0000", "hobby"=>["Programming", "HandBall", "Reading a Book"], "sns"=>{"twitter"=>{"id"=>"hsampei", "url"=>"http://twitter.com/hsampei"}, "facebook"=>{"id"=>"hsampei", "url"=>"http://facebook.com/hsampei"}, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:16:31.562201 #39517] DEBUG -- : {"id"=>1, "last_name"=>"Sampei", "first_name"=>"Hiroki", "age"=>23, "gender"=>"male", "birth"=>{"year"=>1990, "month"=>7, "day"=>4}, "mail"=>"hsampei@mail.com", "tel"=>"080-0000-0000", "hobby"=>["Programming", "HandBall", "Reading a Book"], "sns"=>{"twitter"=>{"id"=>"hsampei", "url"=>"http://twitter.com/hsampei"}, "facebook"=>{"id"=>"hsampei", "url"=>"http://facebook.com/hsampei"}, "tumblr"=>nil}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:55:07.806317 #39517] DEBUG -- : {"id"=>2, "last_name"=>"Yamada", "first_name"=>"Takashi", "age"=>53, "gender"=>"male", "birth"=>{"year"=>1970, "month"=>4, "day"=>10}, "mail"=>"tyamada@mail.com", "tel"=>"090-0100-0100", "hobby"=>["Soccer", "Anime"], "sns"=>{"twitter"=>{"id"=>"tyamada", "url"=>"http://twitter.com/tyamada"}, "facebook"=>nil, "tumblr"=>{"id"=>"tyamada", "url"=>"http://facebook.com/tyamada"}}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:55:12.970899 #39517] DEBUG -- : {"id"=>4, "last_name"=>"Suzuki", "first_name"=>"Tarou", "age"=>89, "gender"=>"male", "birth"=>{"year"=>1910, "month"=>4, "day"=>14}, "mail"=>"tsuzuki@mail.com", "tel"=>"090-0111-0111", "hobby"=>["Golf"], "sns"=>{"twitter"=>{"id"=>"tsuzuki", "url"=>"http://twitter.com/tsuzuki"}, "facebook"=>{"id"=>"tsuzuki", "url"=>"http://facebook.com/tsuzuki"}, "tumblr"=>{"id"=>"tsuzuki", "url"=>"http://tumblr.com/tsuzuki"}}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:55:29.923644 #39517] DEBUG -- : {"id"=>4, "last_name"=>"Suzuki", "first_name"=>"Tarou", "age"=>89, "gender"=>"male", "birth"=>{"year"=>1910, "month"=>4, "day"=>14}, "mail"=>"tsuzuki@mail.com", "tel"=>"090-0111-0111", "hobby"=>["Golf"], "sns"=>{"twitter"=>{"id"=>"tsuzuki", "url"=>"http://twitter.com/tsuzuki"}, "facebook"=>{"id"=>"tsuzuki", "url"=>"http://facebook.com/tsuzuki"}, "tumblr"=>{"id"=>"tsuzuki", "url"=>"http://tumblr.com/tsuzuki"}}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:56:55.591316 #39517] DEBUG -- : {"id"=>4, "last_name"=>"Suzuki", "first_name"=>"Tarou", "age"=>89, "gender"=>"male", "birth"=>{"year"=>1910, "month"=>4, "day"=>14}, "mail"=>"tsuzuki@mail.com", "tel"=>"090-0111-0111", "hobby"=>["Golf"], "sns"=>{"twitter"=>{"id"=>"tsuzuki", "url"=>"http://twitter.com/tsuzuki"}, "facebook"=>{"id"=>"tsuzuki", "url"=>"http://facebook.com/tsuzuki"}, "tumblr"=>{"id"=>"tsuzuki", "url"=>"http://tumblr.com/tsuzuki"}}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:57:26.667995 #39517] DEBUG -- : {"id"=>4, "last_name"=>"Suzuki", "first_name"=>"Tarou", "age"=>89, "gender"=>"male", "birth"=>{"year"=>1910, "month"=>4, "day"=>14}, "mail"=>"tsuzuki@mail.com", "tel"=>"090-0111-0111", "hobby"=>["Golf"], "sns"=>{"twitter"=>{"id"=>"tsuzuki", "url"=>"http://twitter.com/tsuzuki"}, "facebook"=>{"id"=>"tsuzuki", "url"=>"http://facebook.com/tsuzuki"}, "tumblr"=>{"id"=>"tsuzuki", "url"=>"http://tumblr.com/tsuzuki"}}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
+D, [2014-03-01T21:57:34.465839 #39517] DEBUG -- : {"id"=>4, "last_name"=>"Suzuki", "first_name"=>"Tarou", "age"=>89, "gender"=>"male", "birth"=>{"year"=>1910, "month"=>4, "day"=>14}, "mail"=>"tsuzuki@mail.com", "tel"=>"090-0111-0111", "hobby"=>["Golf"], "sns"=>{"twitter"=>{"id"=>"tsuzuki", "url"=>"http://twitter.com/tsuzuki"}, "facebook"=>{"id"=>"tsuzuki", "url"=>"http://facebook.com/tsuzuki"}, "tumblr"=>{"id"=>"tsuzuki", "url"=>"http://tumblr.com/tsuzuki"}}, "status"=>1, "created_at"=>2013-01-01 09:00:00 +0900, "updated_at"=>2013-01-04 09:00:00 +0900}
