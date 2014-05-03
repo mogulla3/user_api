@@ -1,3 +1,5 @@
+require 'logger'
+require 'sinatra/reloader'
 Bundler.require
 
 users  = YAML.load_file('userdata.yml')
@@ -7,19 +9,16 @@ logger.level = Logger::DEBUG
 # 単一ユーザー情報の取得
 get '/users/:id' do
 
-  # validator = Validator.new('GET_USER')
-
+  # 指定されたidのユーザーを取得する
+  # 存在しない場合、detectはnilを返す
   user = users.detect {|user| user['id'] == params[:id].to_i}
-  logger.debug user
 
-  # 入力値の取得
-  # 随時エラーとロギング
+  unless user
+    logger.info({'status' => 400, 'message' => "user_id '#{params[:id]}' is not found", 'params' => params})
+    return json({'status' => 400, 'message' => "user_id '#{params[:id]}' is not found"})
+  end
 
-  # バリデーション
-
-  # 要求された処理を実行
-
-  # レスポンスを返す
+  logger.info({'status' => 200, 'message' => 'success', 'params' => params})
   json(user)
 
 end
