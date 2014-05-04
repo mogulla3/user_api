@@ -36,12 +36,14 @@ GET, POST, PUT, DELETE
 - リクエストボディの形式はJSONのみ許可する（application/json）
 
 #### レスポンスデータの仕様
-- JSONとXML形式をサポートする
+- JSON形式のみサポートする(その他の形式については2ndフェーズ)
 - /users.json, /users.xmlのようにドット以下にファイルフォーマットを指定する
 
 ## エラーレスポンス
 
 #### Error Code List
+※ 随時追加・更新する  
+
 original error code | http status code | Description
 :-- | :-- | :--
 u-100 | 400 Bad Request | -
@@ -55,6 +57,7 @@ u-202 | 503 Service Unavailable | -
 #### Sample Response
 ```
 {
+  "error_code": "u-100"
   "status_code": 400,
   "message": "Required parameter is not setted."
 }
@@ -85,8 +88,11 @@ hoge
 GET /users/:id
 ```
 ##### Input (Query-Parameter or Request-Body) 
-None
-#### Sample
+Name | Type | Required | Description
+:-- | :-- | :-- | :--
+fields | string | - | - |
+
+#### Sample Request
 GET _http://api.sample.jp/v1/uesrs/1?fields=first_name,age_  
 
 ```
