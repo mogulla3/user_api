@@ -4,5 +4,6 @@ source "https://rubygems.org"
 gem 'sinatra'
 gem 'sinatra-contrib'
 gem 'pry'
+gem 'yard'
 #gem 'json'
 #gem 'yaml'
