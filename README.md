@@ -46,10 +46,11 @@ GET, POST, PUT, DELETE
 
 original error code | http status code | Description
 :-- | :-- | :--
-u-100 | 400 Bad Request | -
-u-101 | 401 Unauthorized | -
-u-102 | 403 Forbidden | -
-u-103 | 405 Method Not Allowed | -
+u-100 | 400 Bad Request | 不正なユーザーIDが指定された
+u-101 | 400 Bad Request | 不正なfieldsがfieldsパラメータに指定された
+u-102 | 401 Unauthorized | -
+u-103 | 403 Forbidden | -
+u-104 | 405 Method Not Allowed | -
 u-201 | 500 Internal Server Error | -
 u-202 | 503 Service Unavailable | -
 
