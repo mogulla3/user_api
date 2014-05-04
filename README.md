@@ -173,9 +173,8 @@ sns.tumblr.url|string|◯|Url of the user's tumblr page.|
 status|integer|◯|Status of the user in this app.|
 
 ##### Sample Request
-
-
-
+POST _http://api.sample.jp/v1/uesrs_  
+
 ```
 {
   "first_name": "Tarou",
