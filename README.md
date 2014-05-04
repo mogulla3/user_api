@@ -69,19 +69,57 @@ u-202 | 503 Service Unavailable | -
 GET /users
 ```
 ##### Input (Query-Parameter or Request-Body) 
-hogehoge
+Name | Type | Required | Description
+:-- | :-- | :-- | :--
+id | integer | ◯ | ユーザID。カンマ区切りで複数ユーザーの指定が可能
+fields | string | - | フィールド。カンマ区切りで複数フィールドの指定が可能
 
-##### Sample Request
-GET _http://api.sample.jp/v1/users_  
+##### Sample Request & Response
+GET _http://api.sample.jp/v1/users?id=1,2,3&fields=id,age_
+```
+[
+{
+  "id": 1,
+  "age": 2
+},
+{
+  "id": 2,
+  "age": 10
+}
+]
+```
 
+GET _http://api.sample.jp/v1/users?id=1_
 ```
 {
-  id: "hoge",
-  age: 2
+  "id": 1,
+  "age": 20,
+  "first_name": "Hiroki",
+  "last_name": "Sampei",
+  .
+  .
+  . 全フィールドを含む
 }
 ```
-##### Sample Response
-hoge
+GET _http://api.sample.jp/v1/users?fields=id,age_
+
+```
+[
+{
+  "id": 1,
+  "age": 20
+},
+{
+  "id": 2,
+  "age": 10
+}
+.
+.
+.全ユーザ情報を返す
+]
+```
+##### Memo
+* 一度に返却可能なユーザー数の設定が必要（ユーザ数が多い場合、全ユーザー返却ではタイムアウトが発生する）
 
 ## Get a single user
 
@@ -135,6 +173,9 @@ sns.tumblr.url|string|◯|Url of the user's tumblr page.|
 status|integer|◯|Status of the user in this app.|
 
 ##### Sample Request
+
+
+
 ```
 {
   "first_name": "Tarou",
