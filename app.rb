@@ -1,17 +1,18 @@
 require 'logger'
+require 'json'
 require 'sinatra/reloader'
 Bundler.require
 
-USERS  = YAML.load_file('userdata.yml')
+$users  = YAML.load_file('userdata.yml')
 logger = Logger.new('logs/user_api.log')
 logger.level = Logger::DEBUG
 
-# 単一ユーザー情報の取得
+# 単一ユーザー参照API
 get '/users/:id' do
 
   # 指定されたidのユーザーを取得する
   # 存在しない場合、detectはnilを返す
-  user = USERS.detect {|user| user['id'] == params[:id].to_i}
+  user = $users.detect {|user| user['id'] == params[:id].to_i}
 
   unless user
     logger.info({error_code: 'u-100', status_code: 400, message: "User-id `#{params[:id]}` is invalid.", params: params})
@@ -33,14 +34,14 @@ get '/users/:id' do
 
 end
 
-# 複数ユーザー情報の取得
+# 複数ユーザー参照API
 # TODO: ログにリクエスト時のURL残したい
 get '/users' do
 
   # id指定がされている場合、該当するidのみを抽出する
   if params[:id]
     userid_list = params[:id].split(',')
-    users = USERS.select {|user| userid_list.include?(user['id'].to_s)}
+    users = $users.select {|user| userid_list.include?(user['id'].to_s)}
   end
 
   if params[:fields]
@@ -57,16 +58,27 @@ get '/users' do
 
 end
 
-# ユーザー情報の新規作成
+# ユーザー登録API
+# TODO: JSON形式での取得方法
 post '/users' do
-  'under construction'
+  user = JSON.parse(request.body.read)
+
+  # validate
+
+  # validate失敗 -> エラーを返す
+
+  # validate成功 -> 登録処理に移る
+
+  # ユーザ登録処理
+
 end
 
-# ユーザー情報の更新
+# ユーザー更新API
 put '/users' do
   'under construction'
 end
 
+# ユーザー削除API
 delete '/users' do
   'under construction'
 end
