@@ -47,13 +47,12 @@ GET, POST, PUT, DELETE
 original error code | http status code | Description
 :-- | :-- | :--
 u-100 | 400 Bad Request | 不正なユーザーIDが指定された
-u-101 | 400 Bad Request | 不正なfieldsがfieldsパラメータに指定された
+u-101 | 400 Bad Request | -
 u-102 | 401 Unauthorized | -
 u-103 | 403 Forbidden | -
 u-104 | 405 Method Not Allowed | -
 u-201 | 500 Internal Server Error | -
 u-202 | 503 Service Unavailable | -
-
 
 #### Sample Response
 ```
@@ -63,6 +62,76 @@ u-202 | 503 Service Unavailable | -
   "message": "Required parameter is not setted."
 }
 ```
+
+#### Fieldについて
+各種フィールドについての説明
+* first_name
+ * ユーザのファーストネーム
+ * 必須パラメータ
+ * 1文字以上50文字以下
+* last_name
+ * ユーザーのラストネーム
+ * 必須パラメータ
+ * 1文字以上50文字以下
+* age
+ * ユーザーの年齢
+ * 必須パラメータ
+ * 0以上200以下
+ * 数値のみ許可
+* gender
+ * ユーザーの性別
+ * 必須パラメータ
+ * male, female, othersのいずれかのみ
+* mail
+ * ユーザーのメールアドレス
+ * 必須パラメータ
+ * メールアドレスとして妥当な文字列のみ許可
+ * 100文字以下
+* tel
+ * ユーザーの電話番号
+ * 必須パラメータ
+ * 電話番号として妥当な文字列のみ許可
+ * ハイフン(−)なし
+* hobby
+ * ユーザーの趣味
+ * 複数指定可能
+* status
+ * ユーザーのアプリケーション上でのステータス
+ * 0: 解約状態
+ * 1: 登録済み状態
+ * 2: 契約休止状態
+ * 上記いずれかのステータスである必要がある
+* birth.year
+ * ユーザーの誕生年
+ * 必須パラメータ
+ * 1800 - 現在までの年である必要がある
+ * 西暦での指定
+* birth.month
+ * ユーザーの誕生月
+ * 必須パラメータ
+ * 1-12のいずれかである必要がある
+* birth.day
+ * ユーザーの誕生日 
+ * 必須パラメータ
+ * 1-31のいずれかである必要がある
+ * birth.monthに対して妥当な日である必要がある（2/31等を許容しない）
+* sns.twitter.id
+ * ユーザーのTwitterID
+* sns.twitter.url
+ * ユーザーのTwitterページのURL
+ * URLとして妥当な文字列であること
+* sns.facebook.id
+ * ユーザーのFacebookID
+* sns.facebook.url
+ * ユーザーのFacebookページのURL
+ * URLとして妥当な文字列であること
+* sns.tmblr.id
+ * ユーザのtmblrID
+* sns.tmblr.url
+ *ユーザーのtmblrページのURL
+ * URLとして妥当な文字列であること
+
+---
 
 ## Get user list
 ```
@@ -159,17 +228,17 @@ birth.month|integer|◯|A birth month of the user.|
 birth.day|integer|◯|A birth day of the user.|
 mail|string|◯|A mail address of the user.|
 tel|string|◯|A tel number of the user.|
-hobby|array|◯|Hobbies of the user.|
-sns|hash|◯|SNS infomation of the user.|
-sns.twitter|hash|◯|Twitter information of the user.|
-sns.twitter.id|integer|◯|A twitter id of the user.|
-sns.twitter.url|string|◯|Url of the user's twitter page.|
-sns.facebook|hash|◯|Facebook information of the user.|
-sns.facebook.id|integer|◯|A facebook id of the user.|
-sns.facebook.url|string|◯|Url of the user's facebook page.|
-sns.tumblr|hash|◯|Tumblr information of the user.|
-sns.tumblr.id|integer|◯|A Tumblr id of the user.|
-sns.tumblr.url|string|◯|Url of the user's tumblr page.|
+hobby|array| - |Hobbies of the user.|
+sns|hash| - |SNS infomation of the user.|
+sns.twitter|hash| - |Twitter information of the user.|
+sns.twitter.id|integer| - |A twitter id of the user.|
+sns.twitter.url|string| - |Url of the user's twitter page.|
+sns.facebook|hash| - |Facebook information of the user.|
+sns.facebook.id|integer| - |A facebook id of the user.|
+sns.facebook.url|string| - |Url of the user's facebook page.|
+sns.tumblr|hash| - |Tumblr information of the user.|
+sns.tumblr.id|integer| - |A Tumblr id of the user.|
+sns.tumblr.url|string| - |Url of the user's tumblr page.|
 status|integer|◯|Status of the user in this app.|
 
 ##### Sample Request
