@@ -1,6 +1,8 @@
 require 'logger'
 require 'json'
 require 'sinatra/reloader'
+require './user_validator'
+require './create_validation'
 Bundler.require
 
 $users  = YAML.load_file('userdata.yml')
@@ -34,6 +36,7 @@ get '/users/:id' do
 
 end
 
+
 # 複数ユーザー参照API
 # TODO: ログにリクエスト時のURL残したい
 get '/users' do
@@ -63,13 +66,14 @@ end
 post '/users' do
   user = JSON.parse(request.body.read)
 
-  # validate
+  # バリデーション
+  validator = UserValidator.new(CreateValidation.new, user)
 
-  # validate失敗 -> エラーを返す
+  if validator.validate == false
+    return json(validator.error)
+  end
 
-  # validate成功 -> 登録処理に移る
-
-  # ユーザ登録処理
+  json(user)
 
 end
 
